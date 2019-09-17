@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-password-test/users": ["libs/users/src/index.ts"],
+      "@nx-password-test/demonstration": ["libs/demonstration/src/index.ts"],
+      "@nx-password-test/form-component": ["libs/form-component/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

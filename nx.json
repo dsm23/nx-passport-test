@@ -9,9 +9,21 @@
   },
   "projects": {
     "next-app": {
-      "tags": []
+      "tags": ["frontend"]
     },
     "next-app-e2e": {
+      "tags": []
+    },
+    "api": {
+      "tags": ["backend"]
+    },
+    "users": {
+      "tags": []
+    },
+    "demonstration": {
+      "tags": []
+    },
+    "form-component": {
       "tags": []
     }
   }

@@ -2,6 +2,8 @@ import React from 'react';
 
 import styled from 'styled-components';
 
+import { Demonstration } from '@nx-password-test/demonstration';
+
 const StyledApp = styled.div`
   /*
  * Remove template code below
@@ -152,6 +154,7 @@ export const Index = () => {
         <h1>Welcome to next-app!</h1>
       </header>
       <main>
+        <Demonstration />
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
         <div className="flex github-star-container">
